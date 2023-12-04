@@ -18,7 +18,7 @@ The implementation unfolds by simulating a taxi operating within a grid-based en
 
 By witnessing the taxi's learning process and observing its evolving behavior, users gain insights into the application of RL techniques, understanding how an agent learns through trial and error to achieve specific goals.
 
-Goals
+**Goals**
 
 
 Understand Reinforcement Learning in Gaming: Explore the principles of RL and its application in training an agent to perform tasks within a game environment.
@@ -31,7 +31,7 @@ Hyperparameter Tuning: Conduct hyperparameter tuning to optimize the agent's lea
 
 
 
-Prerequisites
+**Prerequisites**
 To engage with the project effectively, users should have:
 
 Libraries:  Familiarity with libraries including gymnasium, pygame, numpy, pickle5, pyyaml==6.0, imageio, imageio_ffmpeg, pyglet==1.5.1, and tqdm.
@@ -41,7 +41,7 @@ Package  Requirements: Ensure the installation of necessary  packages such as py
 Google Colab Environment: Utilizing Google Colab offers advantages in terms of collaborative work, access to powerful resources, and seamless integration with Google Drive, simplifying code execution and collaboration.
 
 
-Installation
+**Installation**
 
 Libraries and Dependencies: Install the required libraries using the following commands:
 !pip install gymnasium pygame numpy pickle5 pyyaml==6.0 imageio imageio_ffmpeg pyglet==1.5.1 tqdm
@@ -56,9 +56,9 @@ For system dependencies:
 Google Colab Environment: This project is optimized for Google Colab, providing a seamless environment for executing the code. It ensures easy access, computing resources, and collaborative capabilities.
 
 
-Usage
+**Usage**
 
- Running the Code
+ **Running the Code**
 
 1. Execution Steps:
 Open the provided Google Colab notebook in your preferred browser.
@@ -68,7 +68,7 @@ Open the provided Google Colab notebook in your preferred browser.
  As the code runs, you'll witness the iterative training phases of the taxi agent in the game environment.
  The output will display information on the training progress, such as episodes, steps, and agent performance metrics.
 
-Configuration
+**Configuration**
 
 1. Hyperparameters:
 Users can adjust the following hyperparameters to observe varying agent performances:
@@ -98,7 +98,7 @@ print(f"Mean Reward: {mean_reward}, Standard Deviation: {std_reward}")
     
 
 
-Explanation of Components
+**Explanation of Components**
 
 1. Q-Learning Algorithm
 
@@ -151,42 +151,42 @@ Evaluation of Agent Performance:
 
 
 
-## Customization and Extension
+**Customization and Extension**
 
-### 1. Modifying Hyperparameters
+**1. Modifying Hyperparameters**
 
-- **Customization:**
+**Customization:**
     - Experiment with different hyperparameter values in the `train` function to enhance the learning process.
     - Adjust `n_training_episodes`, `learning_rate`, `decay_rate`, and `max_steps` to observe their impact on the agent's learning.
 
-### 2. Incorporating New Environments
+ **2. Incorporating New Environments**
 
-- **Integration:**
+ **Integration:**
     - Extend the code to operate with diverse environments provided by the OpenAI Gym.
     - Replace the existing `"Taxi-v3"` environment with other available environments to train agents for varied tasks and scenarios.
 
-### 3. Algorithmic Enhancements
+**3. Algorithmic Enhancements**
 
-- **Algorithm Modifications:**
+**Algorithm Modifications:**
     - Implement and test variations of the Q-Learning algorithm beyond the default configuration.
     - Explore advanced techniques like SARSA, Deep Q-Networks (DQN), or Double Q-Learning to enrich the agent's learning capabilities.
 
-### 4. Customizing Reward Structures
+**4. Customizing Reward Structures**
 
-- **Reward Design:**
+**Reward Design:**
     - Tailor the reward mechanism within the environment to suit specific learning objectives.
     - Experiment by altering the reward system to observe changes in the agent's behavior and decision-making.
 
-### 5. Integrating External Data Sources
+**5. Integrating External Data Sources**
 
-- **Data Integration:**
+**Data Integration:**
     - Guide users on integrating their datasets or custom environment configurations into the codebase.
     - Provide instructions or suggestions on adapting the code to utilize custom data or unique scenarios.
 
-### 6. Expanding Evaluation Metrics
+**6. Expanding Evaluation Metrics**
 
-- **Custom Evaluation Metrics:**
+**Custom Evaluation Metrics:**
     - Encourage defining additional evaluation metrics beyond the default set.
     - Support users in creating custom evaluation functions to measure various aspects of agent performance.
 
----
+
