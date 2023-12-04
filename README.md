@@ -1,14 +1,14 @@
 # Reinforcement-Learning-In-Games.-Teaching-A-taxi-to-pick-up-and-Drop-off
-  Instruction Manule
+  
 
 
 
 
 
 
-Introduction
+# Introduction
 
-Brief Overview
+# Brief Overview
 
 The project looks into Reinforcement Learning (RL) within gaming landscapes, focusing on the fundamental concept of Q-Learning to teach a taxi cab to navigate intelligently in a simulated environment. RL, a subset of machine learning, enables an agent to learn by interacting with an environment, making sequential decisions, and receiving feedback in the form of rewards or penalties.
 
