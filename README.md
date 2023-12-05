@@ -180,13 +180,13 @@ Evaluation of Agent Performance:
 **5. Integrating External Data Sources**
 
 **Data Integration:**
-    - Guide users on integrating their datasets or custom environment configurations into the codebase.
-    - Provide instructions or suggestions on adapting the code to utilize custom data or unique scenarios.
+    - Experiment with integrating their datasets or custom environment configurations into the codebase.
+ 
 
 **6. Expanding Evaluation Metrics**
 
 **Custom Evaluation Metrics:**
-    - Encourage defining additional evaluation metrics beyond the default set.
-    - Support users in creating custom evaluation functions to measure various aspects of agent performance.
+    - Experiment with defining additional evaluation metrics beyond the default set.
+    - Experiment by creating custom evaluation functions to measure various aspects of agent performance.
 
 
